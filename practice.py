@@ -1,0 +1,88 @@
+import random
+A,B=float(3),float(5)
+
+sum=A+B
+#Casting
+print(float(sum))
+
+X='BEST'
+
+def func():
+    X='GOOD'
+    print('Pyhton is '+X)
+func()
+
+print(random.randrange(1,15))
+
+
+# Strings
+print(X[1:3])
+print(X.lower())
+print(X.replace("B","T"))
+
+#format String
+age=22
+height=6
+ME="My age is {} and my height is {}"
+print(ME.format(age,height))
+
+print("The \"peaky blinder\" series is top notch")
+print(X.encode())
+
+# Python list
+
+A=['ALI','AHMED','MARYAM','ASMA',50,True]
+print(A)
+print(A[2])
+print(A[3:5])
+print(A[-5:-1])
+
+if "AL" in A:
+ print(True)
+else:
+   print(False)
+
+#change list items
+
+A[1:3]=['REHAN','ZAIN']
+print(A)
+
+# ADD ITEM
+
+A.insert(1,"AAMRAH")
+print(A)
+
+#LOOPS
+
+for x in A:
+   print(x)
+
+for x in range(len(A)):
+   print(A[x])
+
+#sorting list
+thisList=['B','Z','A']
+thisList.sort()
+print(thisList)
+
+#joining two lists
+
+for x in thisList:
+   A.append(x)
+
+print(A)
+
+#tuple
+
+aTuple=('A','Z','B')
+print(aTuple)
+
+print(aTuple[1])
+
+# updating tuple
+
+bTuple=list(aTuple)
+bTuple[1]=('C')
+aTuple=tuple(bTuple)
+print(aTuple)
+
