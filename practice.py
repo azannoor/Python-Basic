@@ -86,3 +86,37 @@ bTuple[1]=('C')
 aTuple=tuple(bTuple)
 print(aTuple)
 
+#sets
+
+S1={'A','B','C'}
+S2={'S','A','K'}
+S3=S1.intersection(S2)
+print(S3)
+
+#dictionaries
+
+thisdict=dict(car='honda',
+         model='2023' )
+print(thisdict)
+x=thisdict.get('model')
+print(x)
+y=thisdict.keys()
+print(y)
+
+def function(fName,lName):
+   print(""+fName+ " "+lName)
+
+function("azan","noor")
+
+#lambda function
+
+x=lambda a:a+10
+print(x(5))
+
+#keyword arguments
+
+def myfunc(**kid):
+  print("kid last name is: "+kid['lName'])
+
+myfunc(fName='azan',lName='noor')
+
