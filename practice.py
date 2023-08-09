@@ -141,3 +141,9 @@ else:
 text="my name is rahyma"
 c=camelcase.CamelCase()
 print(c.hump(text))
+
+#String formatting
+
+Myage=22
+new="my age is {}"
+print(new.format(Myage))
