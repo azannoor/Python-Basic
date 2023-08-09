@@ -1,4 +1,6 @@
 import random
+import re
+import camelcase
 A,B=float(3),float(5)
 
 sum=A+B
@@ -120,3 +122,22 @@ def myfunc(**kid):
 
 myfunc(fName='azan',lName='noor')
 
+#iterator
+
+itr="pakistan"
+for x in itr:
+   print(x)
+
+#RegEX
+text='my name is azaan'
+r=re.search("^m.*azaan$",text)
+if r:
+   print("yes")
+else:
+   print("no")
+
+#updated PIP and downloaded a package
+
+text="my name is rahyma"
+c=camelcase.CamelCase()
+print(c.hump(text))
