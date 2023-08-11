@@ -3,9 +3,9 @@ import re
 import camelcase
 A,B=float(3),float(5)
 
-sum=A+B
+ADD=A+B
 #Casting
-print(float(sum))
+print(float(ADD))
 
 X='BEST'
 
@@ -129,8 +129,8 @@ for x in itr:
    print(x)
 
 #RegEX
-text='my name is azaan'
-r=re.search("^m.*azaan$",text)
+text='my name is ahmed'
+r=re.search("^m.*ahmed$",text)
 if r:
    print("yes")
 else:
@@ -148,4 +148,4 @@ Myage=22
 new="my age is {}"
 print(new.format(Myage))
 
-#okay
+
