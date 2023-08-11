@@ -148,4 +148,3 @@ Myage=22
 new="my age is {}"
 print(new.format(Myage))
 
-#okay
